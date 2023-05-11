@@ -6,6 +6,8 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-   <header class="bg-red-400 py-4">
-
+   <header class="bg-red-400 py-4 flex justify-center">
+      <div class="container">
+         <h1 class="font-bold">LaupWing</h1>
+      </div>
    </header>
