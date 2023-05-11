@@ -9,5 +9,12 @@
    <header class="py-4 flex justify-center">
       <div class="container">
          <h1 class="font-bold text-white">LaupWing</h1>
+         <nav>
+            <?php
+               wp_nav_menu([
+                  "theme_location" => "headerMenuLocation"
+               ]);
+            ?>
+         </nav>
       </div>
    </header>
