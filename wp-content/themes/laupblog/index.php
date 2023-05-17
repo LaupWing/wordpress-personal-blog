@@ -1,6 +1,9 @@
 <?php 
    get_header()
 ?>
+   <h2 class="container mb-3 text-4xl font-bold italic">
+      Recent
+   </h2>
    <div class="container grid grid-cols-2 grid-rows-2 gap-4">
       <?php 
          while(have_posts()){

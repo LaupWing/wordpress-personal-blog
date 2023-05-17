@@ -25,4 +25,4 @@
          </div>
       </div>
    </header>
-   <main class="flex items-center justify-center">
+   <main class="flex items-center justify-center flex-col">
