@@ -8,13 +8,18 @@
 <body <?php body_class() ?>>
    <header class="py-4 flex justify-center">
       <div class="container flex justify-between items-center">
-         <h1 class="font-bold">LaupWing</h1>
-         <nav>
-            <?php
-               wp_nav_menu([
-                  "theme_location" => "headerMenuLocation"
-               ]);
-            ?>
-         </nav>
+         <div class="flex items-center">
+            <h1 class="font-bold">LaupWing</h1>
+            <nav>
+               <?php
+                  wp_nav_menu([
+                     "theme_location" => "headerMenuLocation"
+                  ]);
+               ?>
+            </nav>
+         </div>
+         <div>
+            <?php  get_template_part("templates/icons/search")?>
+         </div>
       </div>
    </header>
