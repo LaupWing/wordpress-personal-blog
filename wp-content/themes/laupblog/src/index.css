@@ -7,3 +7,9 @@
       /* @apply bg-black; */
    }
 }
+
+@layer components {
+   ul#menu-main-header-menu {
+      @apply flex;
+   }
+}
