@@ -10,6 +10,6 @@
 
 @layer components {
    ul#menu-main-header-menu {
-      @apply flex;
+      @apply flex gap-6;
    }
 }

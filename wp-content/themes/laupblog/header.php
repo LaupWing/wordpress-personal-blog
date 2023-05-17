@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class() ?>>
    <header class="py-4 flex justify-center">
-      <div class="container">
+      <div class="container flex justify-between items-center">
          <h1 class="font-bold">LaupWing</h1>
          <nav>
             <?php
