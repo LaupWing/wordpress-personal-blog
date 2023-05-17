@@ -11,9 +11,9 @@
             $index = $wp_query->current_post;
       ?>
          <?php if($index === 0) {?>
-            <div class="bg-red-200 relative rounded-2xl col-span-1 overflow-hidden row-span-2 aspect-square">
-               <p> <?php the_title() ?> </p>
-               <img class="inset-0 absolute w-full h-full object-cover" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
+            <div class="relative rounded-2xl col-span-1 overflow-hidden row-span-2 aspect-square flex items-start p-4 justify-start">
+               <p class="bg-white p-2 rounded-md font-bold text-xl"> <?php the_title() ?> </p>
+               <img class="inset-0 absolute w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
             </div>
          <?php }?>
          <?php if($index > 0 && $index <= 2) {?>
