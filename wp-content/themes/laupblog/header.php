@@ -8,8 +8,8 @@
 <body <?php body_class() ?>>
    <header class="py-4 flex justify-center">
       <div class="container flex justify-between items-center">
-         <div class="flex items-center">
-            <h1 class="font-bold">LaupWing</h1>
+         <div class="flex items-end">
+            <h1 class="font-bold mr-8 text-xl italic">Laup Wing</h1>
             <nav>
                <?php
                   wp_nav_menu([
@@ -19,7 +19,9 @@
             </nav>
          </div>
          <div>
-            <?php  get_template_part("templates/icons/search")?>
+            <div class="w-[34px] h-[34px] text-white bg-black rounded-full flex items-center justify-center">
+               <?php  get_template_part("templates/icons/search")?>
+            </div>
          </div>
       </div>
    </header>
