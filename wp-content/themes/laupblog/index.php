@@ -30,9 +30,10 @@
                </div>
                <div class="w-10 h-10 m-4 flex justify-center items-center bg-white rounded-full">
                   <?php 
-                     global $custom_arrow_class; 
                      $custom_arrow_class = "w-4 h-4";
-                     get_template_part("templates/icons/arrowRightUp");
+                     get_template_part("templates/icons/arrowRightUp", null, array(
+                        "custom_arrow_class" => $custom_arrow_class
+                     ));
                   ?>
                </div>
                <img class="inset-0 absolute w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
