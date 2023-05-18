@@ -7,7 +7,7 @@ module.exports = {
    theme: {
       fontFamily: {
          sans: ["Wix Madefor Text", "sans-serif"],
-         display: ["Fugaz One", "sans-serif"]
+         cursive: ["Fugaz One", "cursive"]
       },
       extend: {
 

@@ -9,7 +9,7 @@
    <header class="py-4 flex justify-center">
       <div class="container flex justify-between items-center">
          <div class="flex items-end">
-            <h1 class="font-bold mr-8 text-xl italic">Laup Wing</h1>
+            <h1 class="font-bold mr-8 text-xl font-cursive">Laup Wing</h1>
             <nav>
                <?php
                   wp_nav_menu([
