@@ -2,7 +2,7 @@
    get_header()
 ?>
    <h2 class="container mb-3 text-5xl font-bold font-cursive">
-      Recent
+      Blogs
    </h2>
    <div class="container grid grid-cols-2 grid-rows-2 gap-4">
       <?php 
