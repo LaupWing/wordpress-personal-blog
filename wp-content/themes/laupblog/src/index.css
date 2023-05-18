@@ -14,27 +14,27 @@
    }
 
    div#content hr{
-      @apply hidden;
+      @apply border-slate-200 my-2;
    }
    div#content > * {
       @apply my-4;
    }
    div#content h1 {
-      @apply my-4;
+      @apply text-6xl;
    }
-   div#content h1 {
-      @apply my-4;
+   div#content h2 {
+      @apply text-5xl;
    }
-   div#content h1 {
-      @apply my-4;
+   div#content h3 {
+      @apply text-4xl;
    }
-   div#content h1 {
-      @apply my-4;
+   div#content h4 {
+      @apply text-3xl;
    }
-   div#content h1 {
-      @apply my-4;
+   div#content h5 {
+      @apply text-2xl;
    }
-   div#content h1 {
-      @apply my-4;
+   div#content h6 {
+      @apply text-xl;
    }
 }
