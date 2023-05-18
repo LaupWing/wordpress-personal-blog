@@ -1,5 +1,5 @@
 <?php 
-   $custom_arrow_class = isset($args["custom_arrow_class"]) ? $args["custom_arrow_class"] : "w-6 h-6";
+   $custom_arrow_class = isset($args["custom_class"]) ? $args["custom_class"] : "w-6 h-6";
 ?>
 
 <svg 

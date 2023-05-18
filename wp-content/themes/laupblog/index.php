@@ -30,9 +30,9 @@
                </div>
                <div class="w-10 h-10 m-4 flex justify-center items-center bg-white rounded-full">
                   <?php 
-                     $custom_arrow_class = "w-4 h-4";
+                     $custom_class = "w-4 h-4";
                      get_template_part("templates/icons/arrowRightUp", null, array(
-                        "custom_arrow_class" => $custom_arrow_class
+                        "custom_class" => $custom_class
                      ));
                   ?>
                </div>
