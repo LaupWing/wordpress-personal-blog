@@ -13,6 +13,9 @@
    header nav .current-menu-item {
       @apply font-bold;
    }
+   header nav .current_page_parent {
+      @apply font-bold;
+   }
 
    ul#menu-main-header-menu {
       @apply flex gap-6;

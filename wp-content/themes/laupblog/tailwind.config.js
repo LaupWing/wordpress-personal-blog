@@ -5,7 +5,8 @@ module.exports = {
       "./src/**/*.jsx"
    ],
    safelist: [
-      "current-menu-item"
+      "current-menu-item",
+      "current_page_parent"
    ],
    theme: {
       fontFamily: {
