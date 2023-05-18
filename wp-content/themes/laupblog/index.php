@@ -11,10 +11,13 @@
             $index = $wp_query->current_post;
       ?>
          <?php if($index === 0) {?>
-            <div class="relative rounded-2xl col-span-1 overflow-hidden row-span-2 aspect-square flex items-start p-4 justify-start">
+            <div class="relative rounded-2xl col-span-1 overflow-hidden row-span-2 aspect-square flex items-start flex-col p-4 justify-start">
                <div class="w-full flex justify-between items-start">
                   <p class="px-2 bg-white rounded-full font-bold text-xs py-0.5"><?php the_time("M d, Y"); ?></p>
                   <p class="bg-white px-4 py-2 rounded-md font-bold text-2xl"> <?php the_title() ?> </p>
+               </div>
+               <div class="mt-auto ml-auto w-10 h-10 flex justify-center items-center bg-white rounded-full">
+                  <?php get_template_part("templates/icons/arrowRightUp")?>
                </div>
                <img class="inset-0 absolute w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
             </div>
