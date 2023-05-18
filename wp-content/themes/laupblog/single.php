@@ -9,6 +9,9 @@
          <img class="absolute inset-0 w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
       </div>
    </div>
+   <div class="container">
+      <?php the_content() ?>
+   </div>
 <?php 
    get_footer()
 ?>
