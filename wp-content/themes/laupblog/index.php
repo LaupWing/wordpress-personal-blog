@@ -35,7 +35,7 @@
          <?php if($index > 0 && $index <= 2) {?>
             <a 
                href="<?php the_permalink() ?>"
-               class="relative rounded-2xl overflow-hidden col-span-1 row-span-1 flex items-start flex-col p-4 justify-start shadow"
+               class="relative rounded-2xl overflow-hidden col-span-1 row-span-1 flex items-start flex-col p-4 justify-start shadow hover:ring-4 ring-offset-1 ring-yellow-400"
             >
                <div class="w-full flex justify-between items-start">
                   <p class="bg-white px-4 py-2 rounded-md font-bold text-xl"> <?php the_title() ?> </p>
