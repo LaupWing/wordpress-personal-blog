@@ -12,4 +12,29 @@
    ul#menu-main-header-menu {
       @apply flex gap-6;
    }
+
+   div#content hr{
+      @apply hidden;
+   }
+   div#content > * {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply my-4;
+   }
 }
