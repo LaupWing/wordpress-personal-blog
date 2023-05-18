@@ -25,7 +25,11 @@
                <div class="mt-auto ml-auto w-10 h-10 flex justify-center items-center bg-white rounded-full">
                   <?php get_template_part("templates/icons/arrowRightUp")?>
                </div>
-               <img class="inset-0 absolute w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
+               <img 
+                  class="inset-0 absolute w-full h-full object-cover -z-10" 
+                  src="<?php echo get_the_post_thumbnail_url() ?>" 
+                  alt="Thumbnail photo"
+               >
             </a>
          <?php }?>
          <?php if($index > 0 && $index <= 2) {?>
