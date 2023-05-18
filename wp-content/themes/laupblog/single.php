@@ -9,7 +9,7 @@
          <img class="absolute inset-0 w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
       </div>
    </div>
-   <div id="content" class="container">
+   <div id="content" class="container mt-4">
       <?php the_content() ?>
    </div>
 <?php 
