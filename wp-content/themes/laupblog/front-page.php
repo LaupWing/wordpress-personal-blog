@@ -6,9 +6,13 @@
    </h2>
    <div class="container grid grid-cols-2 grid-rows-2 gap-4">
       <?php 
-         while(have_posts()){
-            the_post();
-            $index = $wp_query->current_post;
+         $homepagePosts = new WP_Query(array(
+            "posts_per_page" => 5
+         ));
+         while($homepagePosts->have_posts()){
+            $homepagePosts->the_post();
+            
+            $index = $homepagePosts->current_post;
       ?>
          <?php if($index === 0) {?>
             <a 
