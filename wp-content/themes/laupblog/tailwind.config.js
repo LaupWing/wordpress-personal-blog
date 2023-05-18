@@ -5,7 +5,13 @@ module.exports = {
       "./src/**/*.jsx"
    ],
    theme: {
-      extend: {},
+      fontFamily: {
+         sans: ["Wix Madefor Text", "sans-serif"],
+         display: ["Fugaz One", "sans-serif"]
+      },
+      extend: {
+
+      },
    },
    plugins: [],
 }
