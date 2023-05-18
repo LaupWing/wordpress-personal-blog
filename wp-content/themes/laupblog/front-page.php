@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-   <h2 class="container mb-3 text-5xl font-bold font-cursive">
+   <h2 class="container mb-6 text-5xl font-bold font-cursive">
       Recent
       <a href="<?php echo site_url("/blogs") ?>">
          <button class="bg-yellow-400 text-sm py-1 px-2 rounded-md shadow">See all posts</button>
