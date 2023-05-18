@@ -4,6 +4,9 @@ module.exports = {
       "./**/*.php",
       "./src/**/*.jsx"
    ],
+   safelist: [
+      "current-menu-item"
+   ],
    theme: {
       fontFamily: {
          sans: ["Wix Madefor Text", "sans-serif"],
