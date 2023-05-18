@@ -29,7 +29,11 @@
                   <p class="px-2 bg-white rounded-full font-bold text-xs py-0.5"><?php the_time("M d, Y"); ?></p>
                </div>
                <div class="w-10 h-10 m-4 flex justify-center items-center bg-white rounded-full">
-                  <?php get_template_part("templates/icons/arrowRightUp")?>
+                  <?php 
+                     global $custom_arrow_class; 
+                     $custom_arrow_class = "w-4 h-4";
+                     get_template_part("templates/icons/arrowRightUp");
+                  ?>
                </div>
                <img class="inset-0 absolute w-full h-full object-cover -z-10" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
             </div>
