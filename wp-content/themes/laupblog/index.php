@@ -93,7 +93,7 @@
          class="absolute inset-0 -z-10 h-full w-full object-cover"
       >
       <div class="flex-1 flex flex-col items-center justify-center">
-         <form class="flex flex-col items-start gap-2">
+         <form class="flex flex-col items-start gap-2" action="<?php echo site_url("/subscribe.php") ?>">
             <h2 class="text-white text-4xl font-bold">Join now</h2>
             <div class="flex gap-2">
                <input 
