@@ -107,7 +107,10 @@
       </div>
       <div class="p-4 flex flex-col text-white">
          <hr>
-         <p class="ml-auto">Got any questions?</p>
+         <div class="flex gap-2 ml-auto mt-4 items-center">
+            <p class="font-bold">Got any questions?</p>
+            <button class="bg-black px-4 rounded-full py-1 text-white text-xs">Contact us</button>
+         </div>
       </div>
    </div>
 <?php 
