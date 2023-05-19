@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-   <h2 class="container mb-3 text-5xl font-bold font-cursive">
+   <h2 class="container mb-6 text-5xl font-bold font-cursive">
       Blogs
    </h2>
    <div class="container grid grid-cols-2 grid-rows-2 gap-4">
