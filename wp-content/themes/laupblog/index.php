@@ -97,7 +97,7 @@
             <h2 class="text-white text-4xl font-bold">Join now</h2>
             <div class="flex gap-2">
                <input 
-                  class="p-2 bg-white/20 backdrop-blur w-72 rounded-lg border-white border-2" 
+                  class="p-2 py-1 bg-white/20 backdrop-blur w-72 rounded-lg border-white border-2" 
                   type="email"
                   placeholder="Your Email"
                >
