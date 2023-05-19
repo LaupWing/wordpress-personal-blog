@@ -93,11 +93,22 @@
          class="absolute inset-0 -z-10 h-full w-full object-cover"
       >
       <div class="flex-1 flex flex-col items-center justify-center">
-         <h2 class="text-yellow-400 text-2xl font-bold">Join now</h2>
-         <div class="flex">
-            <input type="text">
-            <input type="text">
-         </div>
+         <form class="flex flex-col items-start gap-2">
+            <h2 class="text-white text-4xl font-bold">Join now</h2>
+            <div class="flex gap-4">
+               <input 
+                  class="p-2 bg-white/20 backdrop-blur w-64 rounded-lg border-white border-2" 
+                  type="text"
+                  placeholder="Your Name"
+                  >
+               <input 
+                  class="p-2 bg-white/20 backdrop-blur w-64 rounded-lg border-white border-2" 
+                  type="email"
+                  placeholder="Your Email"
+               >
+            </div>
+            <button class="bg-yellow-400 text-base py-1 px-4 rounded-md shadow font-cursive mr-auto">Submit</button>
+         </form>
       </div>
    </div>
 <?php 
