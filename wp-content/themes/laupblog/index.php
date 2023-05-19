@@ -95,20 +95,19 @@
       <div class="flex-1 flex flex-col items-center justify-center">
          <form class="flex flex-col items-start gap-2">
             <h2 class="text-white text-4xl font-bold">Join now</h2>
-            <div class="flex gap-4">
+            <div class="flex gap-2">
                <input 
-                  class="p-2 bg-white/20 backdrop-blur w-64 rounded-lg border-white border-2" 
-                  type="text"
-                  placeholder="Your Name"
-                  >
-               <input 
-                  class="p-2 bg-white/20 backdrop-blur w-64 rounded-lg border-white border-2" 
+                  class="p-2 bg-white/20 backdrop-blur w-72 rounded-lg border-white border-2" 
                   type="email"
                   placeholder="Your Email"
                >
+               <button class="bg-yellow-400 text-base py-1 px-4 rounded-md shadow font-cursive mr-auto">Submit</button>
             </div>
-            <button class="bg-yellow-400 text-base py-1 px-4 rounded-md shadow font-cursive mr-auto">Submit</button>
          </form>
+      </div>
+      <div class="p-4 flex flex-col text-white">
+         <hr>
+         <p class="ml-auto">Got any questions?</p>
       </div>
    </div>
 <?php 
