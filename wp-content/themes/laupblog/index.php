@@ -82,6 +82,24 @@
          } 
       ?>
    </div>
+   <div class="h-80 relative container rounded-2xl mt-4 overflow-hidden flex flex-col">
+      <div class="absolute top-0 left-0 flex items-start flex-col text-3xl">
+         <p class="bg-white px-4 py-0.5 font-cursive rounded-br-xl">Join our newsletter for</p>
+         <p class="bg-white px-4 py-0.5 font-cursive rounded-br-xl">exclusive updates.</p>
+      </div>
+      <img 
+         src="https://images.pexels.com/photos/12857745/pexels-photo-12857745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         alt=""
+         class="absolute inset-0 -z-10 h-full w-full object-cover"
+      >
+      <div class="flex-1 flex flex-col items-center justify-center">
+         <h2 class="text-yellow-400 text-2xl font-bold">Join now</h2>
+         <div class="flex">
+            <input type="text">
+            <input type="text">
+         </div>
+      </div>
+   </div>
 <?php 
    get_footer()
 ?>
