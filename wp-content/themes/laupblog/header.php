@@ -6,7 +6,7 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-   <header class="py-4 flex justify-center">
+   <header class="py-4 flex justify-center max-w-6xl mx-auto">
       <div class="container flex justify-between items-center">
          <div class="flex items-end">
             <h1 class="font-bold mr-8 text-xl font-cursive">Laup Wing</h1>
@@ -25,4 +25,4 @@
          </div>
       </div>
    </header>
-   <main class="flex items-center justify-center flex-col">
+   <main class="flex items-center justify-center flex-col max-w-6xl mx-auto">
