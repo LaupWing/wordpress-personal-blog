@@ -4,7 +4,7 @@
    <h2 class="container mb-6 text-5xl font-bold font-cursive">
       Blogs
    </h2>
-   <div class="container grid grid-cols-2 grid-rows-2 gap-4">
+   <div class="container grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-4">
       <?php 
          while(have_posts()){
             the_post();
