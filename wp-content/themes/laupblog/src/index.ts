@@ -1,1 +1,3 @@
-console.log("Hello World")
+import SubscribeForm from "./subscribeForm"
+
+new SubscribeForm()

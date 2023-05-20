@@ -94,8 +94,7 @@
       >
       <div class="flex-1 flex flex-col items-center justify-center">
          <form 
-            class="flex flex-col items-start gap-2" 
-            action="<?php echo site_url("/subscribe.php") ?>"
+            class="flex flex-col items-start gap-2"
             id="subscribe"
          >
             <h2 class="text-white text-4xl font-bold">Join now</h2>
