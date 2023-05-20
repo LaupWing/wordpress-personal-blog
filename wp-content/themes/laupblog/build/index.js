@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log(document.body),new class{constructor(){console.log(document.querySelector("div")),document.querySelector("form#subscribe")&&(this.el=document.querySelector("form#subscribe"),this.el.addEventListener("form",this.handleSubmit))}handleSubmit(e){e.preventDefault()}}})();
+console.log(document.body)
