@@ -1,1 +1,1 @@
-console.log(document.body)
+(()=>{"use strict";new class{constructor(){document.querySelector("form#subscribe")&&(console.log(document.querySelector("form#subscribe")),this.el=document.querySelector("form#subscribe"),this.el.addEventListener("submit",this.handleSubmit))}handleSubmit(e){e.preventDefault(),e.target.querySelector("input[type=email]").value}}})();
