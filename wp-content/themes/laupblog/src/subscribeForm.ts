@@ -4,6 +4,7 @@ export default class SubscribeForm {
    constructor() {
       if(document.querySelector("form#subscribe")){
          console.log(document.querySelector("form#subscribe"))
+         console.log(window.wordpress_data)
          this.el = document.querySelector("form#subscribe") as HTMLFormElement
          this.el.addEventListener("submit", this.handleSubmit)
       }
