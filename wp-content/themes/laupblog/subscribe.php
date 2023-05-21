@@ -14,5 +14,3 @@ $user_data = array(
    "user_email" => $email,
    "role" => "subscriber"
 );
-
-return "test";
