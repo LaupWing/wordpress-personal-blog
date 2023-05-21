@@ -10,8 +10,6 @@ export default class SubscribeForm {
    
    constructor() {
       if(document.querySelector("form#subscribe")){
-         console.log(document.querySelector("form#subscribe"))
-         console.log(window.wordpress_data)
          this.el = document.querySelector("form#subscribe") as HTMLFormElement
          this.el.addEventListener("submit", this.handleSubmit)
       }
@@ -22,8 +20,11 @@ export default class SubscribeForm {
       const input = (e.target as HTMLFormElement).querySelector("input[type=email]") as HTMLInputElement
       const value = input!.value
       if (value){
-         fetch("", {
-            method: "POST"
+         fetch(`${window.wordpress_data}/subscribe.php`, {
+            method: "POST",
+            body: JSON.stringify({
+               email: value
+            })
          })
       }
    }

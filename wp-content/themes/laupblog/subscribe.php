@@ -1,7 +1,6 @@
 <?php 
 
 $email = isset($_POST["email"]) ? $_POST["email"] : "";
-echo "heh";
 $email = sanitize_email($email);
 
 if(!is_email($email)){
@@ -13,3 +12,5 @@ $user_data = array(
    "user_email" => $email,
    "role" => "subscriber"
 );
+
+return "test";
