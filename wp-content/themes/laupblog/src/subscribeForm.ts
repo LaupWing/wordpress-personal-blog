@@ -1,6 +1,13 @@
+declare global {
+   interface Window {
+      wordpress_data: string
+   }
+}
+
+
 export default class SubscribeForm {
    el: HTMLFormElement
-
+   
    constructor() {
       if(document.querySelector("form#subscribe")){
          console.log(document.querySelector("form#subscribe"))
