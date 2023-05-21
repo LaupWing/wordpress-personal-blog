@@ -1,3 +1,3 @@
 import SubscribeForm from "./subscribeForm"
 
-new SubscribeForm()
+// new SubscribeForm()
