@@ -7,7 +7,10 @@
 </head>
 <body <?php body_class() ?>>
    <div class="fixed sm:hidden inset-0 bg-white z-50">
-      <nav id="mobile-nav" class="flex flex-col pt-[10vh] px-10 sm:hidden">
+      <nav id="mobile-nav" class="flex flex-col pt-[6vh] px-10 sm:hidden">
+         <div class="ml-auto mb-6">
+            <?php get_template_part("templates/icons/close")?>
+         </div>
          <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
          <?php
             wp_nav_menu([
@@ -19,7 +22,7 @@
    <header class="py-4 flex justify-center max-w-6xl mx-auto">
       <div class="container flex justify-between items-center">
          <div class="sm:hidden w-1/3">
-            <?php  get_template_part("templates/icons/menu")?>
+            <?php get_template_part("templates/icons/menu")?>
          </div>
          <div class="flex items-end sm:w-auto w-1/3 ">
             <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
