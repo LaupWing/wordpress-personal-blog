@@ -2,7 +2,7 @@
    get_header()
 ?>
    <div class="container mb-6 flex items-end justify-between">
-      <h2 class="text-5xl font-bold font-cursive">
+      <h2 class="sm:text-5xl text-4xl font-bold font-cursive">
          Recent
       </h2>
       <a href="<?php echo site_url("/blogs") ?>">
