@@ -7,7 +7,7 @@
          <button class="bg-yellow-400 text-sm py-1 px-2 rounded-md shadow">See all posts</button>
       </a>
    </h2>
-   <div class="container grid grid-cols-2 grid-rows-2 gap-4">
+   <div class="container grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-4">
       <?php 
          $homepagePosts = new WP_Query(array(
             "posts_per_page" => 5
