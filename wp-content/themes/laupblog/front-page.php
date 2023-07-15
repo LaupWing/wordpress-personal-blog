@@ -1,12 +1,14 @@
 <?php 
    get_header()
 ?>
-   <h2 class="container mb-6 text-5xl font-bold font-cursive">
-      Recent
+   <div class="container mb-6 flex items-end justify-between">
+      <h2 class="text-5xl font-bold font-cursive">
+         Recent
+      </h2>
       <a href="<?php echo site_url("/blogs") ?>">
-         <button class="bg-yellow-400 text-sm py-1 px-2 rounded-md shadow">See all posts</button>
+         <button class="bg-yellow-400 mb-1.5 text-sm py-1 font-bold font-cursive px-2 rounded-md shadow">See all posts</button>
       </a>
-   </h2>
+   </div>
    <div class="container grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-4">
       <?php 
          $homepagePosts = new WP_Query(array(
