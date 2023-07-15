@@ -6,6 +6,16 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
+   <div class="fixed inset-0 bg-white z-50">
+      <nav class="flex flex-col pt-[10vh] pl-4 sm:hidden">
+         <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
+         <?php
+            wp_nav_menu([
+               "theme_location" => "headerMenuLocation"
+            ]);
+         ?>
+      </nav>
+   </div>
    <header class="py-4 flex justify-center max-w-6xl mx-auto">
       <div class="container flex justify-between items-center">
          <div class="sm:hidden w-1/3">
