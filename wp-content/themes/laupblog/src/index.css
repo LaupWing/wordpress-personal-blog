@@ -10,10 +10,10 @@
 }
 
 @layer components {
-   header nav .current-menu-item {
+   nav .current-menu-item {
       @apply font-bold;
    }
-   header nav .current_page_parent {
+   nav .current_page_parent.blog-card {
       @apply font-bold;
    }
    
@@ -26,7 +26,7 @@
       @apply flex gap-6;
    }
    #mobile-nav ul#menu-main-header-menu {
-      @apply flex-col gap-2 mt-6;
+      @apply flex-col gap-8    mt-6;
    }
 
    div#content hr{
