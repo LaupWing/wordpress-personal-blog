@@ -22,7 +22,7 @@
    }
 
    
-   ul#menu-main-header-menu {
+   ul#menu-main-header-menu-1 {
       @apply flex gap-6;
    }
    #mobile-nav ul#menu-main-header-menu {

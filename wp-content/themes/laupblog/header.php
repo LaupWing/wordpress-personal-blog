@@ -6,7 +6,7 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-   <div class="fixed inset-0 bg-white z-50">
+   <div class="fixed sm:hidden inset-0 bg-white z-50">
       <nav id="mobile-nav" class="flex flex-col pt-[10vh] px-10 sm:hidden">
          <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
          <?php
