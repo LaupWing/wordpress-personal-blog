@@ -21,8 +21,12 @@
       @apply relative rounded-2xl overflow-hidden flex items-start flex-col p-4 justify-start shadow hover:ring-4 ring-offset-1 ring-yellow-400 duration-200;
    }
 
+   
    ul#menu-main-header-menu {
       @apply flex gap-6;
+   }
+   #mobile-nav ul#menu-main-header-menu {
+      @apply flex-col gap-2 mt-6;
    }
 
    div#content hr{

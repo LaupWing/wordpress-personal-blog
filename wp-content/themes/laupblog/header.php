@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class() ?>>
    <div class="fixed inset-0 bg-white z-50">
-      <nav class="flex flex-col pt-[10vh] pl-4 sm:hidden">
+      <nav id="mobile-nav" class="flex flex-col pt-[10vh] pl-4 sm:hidden">
          <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
          <?php
             wp_nav_menu([
