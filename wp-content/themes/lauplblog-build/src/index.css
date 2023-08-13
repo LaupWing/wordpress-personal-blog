@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Wix+Madefor+Text:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body {
+      @apply px-4 pb-10;
+   }
+}
+
+@layer components {
+   nav .current-menu-item {
+      @apply font-bold;
+   }
+   nav .current_page_parent.blog-card {
+      @apply font-bold;
+   }
+   
+   .blog-card {
+      @apply relative rounded-2xl overflow-hidden flex items-start flex-col p-4 justify-start shadow hover:ring-4 ring-offset-1 ring-yellow-400 duration-200;
+   }
+
+   
+   ul#menu-main-header-menu-1 {
+      @apply flex gap-6;
+   }
+   #mobile-nav ul#menu-main-header-menu {
+      @apply flex-col gap-8    mt-6;
+   }
+
+   div#content hr{
+      @apply border-slate-200 my-2;
+   }
+   div#content > * {
+      @apply my-4;
+   }
+   div#content h1 {
+      @apply text-6xl;
+   }
+   div#content h2 {
+      @apply text-5xl;
+   }
+   div#content h3 {
+      @apply text-4xl;
+   }
+   div#content h4 {
+      @apply text-3xl;
+   }
+   div#content h5 {
+      @apply text-2xl;
+   }
+   div#content h6 {
+      @apply text-xl;
+   }
+}
+
+@layer utilities {
+   
+}
