@@ -6,12 +6,14 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-   <div class="fixed sm:hidden inset-0 bg-white z-50">
+   <div 
+      class="fixed sm:hidden inset-0 bg-white z-50"
+      data-open="false"
+      style="transform: translateX(-100%);"
+   >
       <nav 
          id="mobile-nav" 
          class="flex flex-col pt-[6vh] px-10 sm:hidden"
-         data-open="false"
-         style="transform: translateX(-100%);"
       >
          <div class="ml-auto mb-6">
             <?php get_template_part("templates/icons/close")?>
