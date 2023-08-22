@@ -1,5 +1,5 @@
 export default class Sidenav {
-   close_btn = HTMLButtonElement
+   close_btn: HTMLButtonElement
    
    constructor()
    {
