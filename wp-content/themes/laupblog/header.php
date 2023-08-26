@@ -29,7 +29,12 @@
    <header class="py-4 flex justify-center max-w-6xl mx-auto">
       <div class="container flex justify-between items-center">
          <div class="sm:hidden w-1/3">
-            <?php get_template_part("templates/icons/menu")?>
+            <button 
+               id="menu-btn" 
+               class="flex items-center justify-center"
+            >
+               <?php get_template_part("templates/icons/menu")?>
+            </button>
          </div>
          <div class="flex items-end sm:w-auto w-1/3 ">
             <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>

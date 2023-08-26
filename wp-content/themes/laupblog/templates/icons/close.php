@@ -6,6 +6,7 @@
    xmlns="http://www.w3.org/2000/svg" 
    height="1em" 
    viewBox="0 0 384 512"
+   id="close"
    class="<?php echo $custom_arrow_class ?>"
 >
    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->

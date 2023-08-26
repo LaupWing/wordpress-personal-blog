@@ -3,6 +3,6 @@ export default class Sidenav {
    
    constructor()
    {
-      this.close_btn = document.querySelector("button") as HTMLButtonElement
+      this.close_btn = document.querySelector("button#close") as HTMLButtonElement
    }  
 }
