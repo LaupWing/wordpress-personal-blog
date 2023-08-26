@@ -19,7 +19,7 @@
                   <p class="px-2 bg-white rounded-full font-bold text-xs py-0.5"><?php the_time("M d, Y"); ?></p>
                   <p class="bg-white px-4 py-2 rounded-md font-bold text-3xl"> <?php the_title() ?> </p>
                </div>
-               <p class="text-right bg-white mt-2 rounded ml-auto p-2 text-sm max-w-[80%] font-bold">
+               <p class="text-right bg-white/80 blur-md mt-2 rounded ml-auto p-2 text-sm max-w-[80%] font-bold">
                   <?php echo get_the_excerpt() ?>
                </p>
                <div class="mt-auto ml-auto w-10 h-10 flex justify-center items-center bg-white rounded-full">
@@ -41,7 +41,7 @@
                   <p class="bg-white px-4 py-2 rounded-md font-bold text-xl"> <?php the_title() ?> </p>
                   <p class="px-2 bg-white rounded-full font-bold text-xs py-0.5"><?php the_time("M d, Y"); ?></p>
                </div>
-               <p class="bg-white mt-2 rounded p-2 text-xs max-w-[80%] font-bold">
+               <p class="bg-white/80 blur-md mt-2 rounded p-2 text-xs max-w-[80%] font-bold">
                   <?php echo get_the_excerpt() ?>
                </p>
                <div class="mt-auto ml-auto w-8 h-8 m-4 flex justify-center items-center bg-white rounded-full">
