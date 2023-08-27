@@ -13,9 +13,12 @@
       style="transform: translateX(-100%);"
    >
       <nav class="flex flex-col pt-[6vh] px-10 sm:hidden">
-         <div class="ml-auto mb-6">
+         <button 
+            class="ml-auto mb-6"
+            id="close"
+         >
             <?php get_template_part("templates/icons/close")?>
-         </div>
+         </button>
          <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
          <?php
             wp_nav_menu([

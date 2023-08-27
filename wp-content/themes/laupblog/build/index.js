@@ -17,13 +17,16 @@ class Sidenav {
     this.close_btn = document.querySelector("button#close");
     this.side_nav = document.querySelector("div#side-nav");
     this.menu_btn = document.querySelector("button#menu-btn");
-    this.menu_btn.addEventListener("click", this.openMenu.bind(this));
+    this.menu_btn.addEventListener("click", this.toggleMenu.bind(this));
+    this.close_btn.addEventListener("click", this.toggleMenu.bind(this));
   }
-  openMenu() {
+  toggleMenu() {
     if (this.side_nav.dataset.open === "false") {
       this.side_nav.style.transform = "translateX(0%)";
+      this.side_nav.dataset.open = "true";
     } else {
       this.side_nav.style.transform = "translateX(-100%)";
+      this.side_nav.dataset.open = "false";
     }
   }
 }
