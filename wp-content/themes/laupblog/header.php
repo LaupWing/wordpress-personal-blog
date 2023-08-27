@@ -19,7 +19,9 @@
          >
             <?php get_template_part("templates/icons/close")?>
          </button>
-         <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
+         <h1 class="font-bold sm:mr-8 text-xl font-cursive">
+            Laup Wing
+         </h1>
          <?php
             wp_nav_menu([
                "theme_location" => "headerMenuLocation"
@@ -38,7 +40,10 @@
             </button>
          </div>
          <div class="flex items-end sm:w-auto w-1/3 ">
-            <h1 class="font-bold sm:mr-8 text-xl font-cursive">Laup Wing</h1>
+            <h1 class="font-bold sm:mr-8 gap-1 text-xl whitespace-nowrap font-cursive flex">
+               Laup Wing
+               <?php get_template_part("templates/icons/chad")?>
+            </h1>
             <nav class="hidden sm:flex">
                <?php
                   wp_nav_menu([
