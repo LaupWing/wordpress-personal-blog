@@ -15,12 +15,16 @@ __webpack_require__.r(__webpack_exports__);
 class Sidenav {
   constructor() {
     this.close_btn = document.querySelector("button#close");
-    this.side_nav = document.querySelector("div#side_nav");
+    this.side_nav = document.querySelector("div#side-nav");
     this.menu_btn = document.querySelector("button#menu-btn");
-    this.menu_btn.addEventListener("click", this.openMenu);
+    this.menu_btn.addEventListener("click", this.openMenu.bind(this));
   }
   openMenu() {
-    console.log(this.side_nav.dataset.open);
+    if (this.side_nav.dataset.open === "false") {
+      console.log("opening the sidenav");
+    } else {
+      console.log("closing the sidenav");
+    }
   }
 }
 
