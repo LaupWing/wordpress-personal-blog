@@ -30,7 +30,7 @@
    }
 
    #side-nav ul#menu-main-header-menu .menu-item {
-      @apply px-2 py-1;
+      @apply px-1 py-0.5 rounded;
    }
 
    #side-nav ul#menu-main-header-menu .current-menu-item {
