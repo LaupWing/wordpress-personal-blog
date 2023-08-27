@@ -29,6 +29,10 @@
       @apply flex-col gap-8 mt-6;
    }
 
+   #side-nav ul#menu-main-header-menu .menu-item {
+      @apply px-2 py-1;
+   }
+
    #side-nav ul#menu-main-header-menu .current-menu-item {
       @apply bg-yellow-400;
    }

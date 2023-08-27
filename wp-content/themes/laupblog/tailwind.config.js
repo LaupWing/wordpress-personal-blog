@@ -6,6 +6,7 @@ module.exports = {
    ],
    safelist: [
       "current-menu-item",
+      "menu-item",
       "current_page_parent"
    ],
    theme: {
