@@ -8,7 +8,7 @@
 <body <?php body_class() ?>>
    <div 
       id="side-nav"
-      class="fixed sm:hidden inset-0 bg-white z-50"
+      class="fixed sm:hidden inset-0 bg-white z-50 duration-500"
       data-open="false"
       style="transform: translateX(-100%);"
    >

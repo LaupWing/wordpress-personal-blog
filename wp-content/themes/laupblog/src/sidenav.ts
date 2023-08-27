@@ -15,9 +15,9 @@ export default class Sidenav {
 
    private openMenu() {
       if(this.side_nav.dataset.open === "false"){
-         console.log("opening the sidenav")
+         this.side_nav.style.transform = "translateX(0%)" 
       } else {     
-         console.log("closing the sidenav")
+         this.side_nav.style.transform = "translateX(-100%)" 
       }
    }
 }
