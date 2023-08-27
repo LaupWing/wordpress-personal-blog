@@ -14,6 +14,6 @@ export default class Sidenav {
 
 
    private openMenu() {
-
+      console.log(this.side_nav.dataset.open)
    }
 }
