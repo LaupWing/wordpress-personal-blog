@@ -24,7 +24,7 @@
          <?php }?>
          <?php if($index > 0 && $index <= 2) {?>
             <?php get_template_part("templates/cards/blog-card-small")?>
-            <?php }?>
+         <?php }?>
          <?php if($index > 2) {?>
             <?php get_template_part("templates/cards/blog-card-rect")?>
          <?php }?>
