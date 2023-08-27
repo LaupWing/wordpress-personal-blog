@@ -33,6 +33,10 @@
       @apply px-1 py-0.5 rounded flex;
    }
 
+   #side-nav ul#menu-main-header-menu .menu-item a{
+      @apply flex-1;
+   }
+
    #side-nav ul#menu-main-header-menu .current-menu-item {
       @apply bg-yellow-400;
    }
