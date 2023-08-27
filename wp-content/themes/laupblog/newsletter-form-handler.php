@@ -2,9 +2,8 @@
 
 $email = isset($_POST["email"]) ? $_POST["email"] : "";
 $email = sanitize_email($email);
-echo isset($_POST["email"]) ? "test" : "test2"; 
+
 if(isset($_POST["email"])){
-   echo "test";
    if(!is_email($email)){
       die("Invalid email address");
    }
