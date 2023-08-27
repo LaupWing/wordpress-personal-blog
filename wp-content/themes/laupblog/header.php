@@ -19,8 +19,11 @@
          >
             <?php get_template_part("templates/icons/close")?>
          </button>
-         <h1 class="font-bold sm:mr-8 text-xl font-cursive">
+         <h1 class="font-bold gap-1 sm:mr-8 text-xl font-cursive flex items-center">
             Laup Wing
+            <?php get_template_part("templates/icons/chad", null, array(
+               "custom_class" => "w-4 w-4"
+            ))?>
          </h1>
          <?php
             wp_nav_menu([
