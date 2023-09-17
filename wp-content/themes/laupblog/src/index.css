@@ -10,7 +10,8 @@
 }
 
 @layer components {
-   nav .current-menu-item {
+   nav .current-menu-item,
+   nav .current_page_parent {
       @apply font-bold;
    }
    nav .current_page_parent.blog-card {

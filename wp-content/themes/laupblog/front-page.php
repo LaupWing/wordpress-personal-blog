@@ -14,10 +14,12 @@
          $homepagePosts = new WP_Query(array(
             "posts_per_page" => 5
          ));
-         while($homepagePosts->have_posts()){
-            $homepagePosts->the_post();
-            
-            $index = $homepagePosts->current_post;
+         if(have_posts()){
+            while($homepagePosts->have_posts()){
+               $homepagePosts->the_post();
+               
+               $index = $homepagePosts->current_post;
+         
       ?>
          <?php if($index === 0) {?>
             <?php get_template_part("templates/cards/blog-card-big")?>
@@ -29,7 +31,12 @@
             <?php get_template_part("templates/cards/blog-card-rect")?>
          <?php }?>
       <?php 
-         } 
+            } 
+         } else {
+      ?>
+         
+      <?php
+         }
       ?>
    </div>
 <?php 
