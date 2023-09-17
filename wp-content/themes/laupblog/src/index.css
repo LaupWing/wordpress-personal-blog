@@ -37,7 +37,8 @@
       @apply flex-1;
    }
 
-   #side-nav ul#menu-main-header-menu .current-menu-item {
+   #side-nav ul#menu-main-header-menu .current-menu-item, 
+   #side-nav ul#menu-main-header-menu .current_page_parent {
       @apply bg-yellow-400;
    }
 
